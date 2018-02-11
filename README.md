@@ -19,3 +19,7 @@ $ sed -i 's/YOUR_WORKSPACE/your_workspace/' config.py
 
 ### cron
 This script is best used alongside a cron-job for added lulz.
+```bash
+# make sure to run this on the root of the repo.
+$ (crontab -l; echo "*/5 * * * * python3.6 $(pwd)/slack-zoo.py") | crontab
+```
