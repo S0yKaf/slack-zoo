@@ -1,3 +1,6 @@
+TOKEN = "YOUR_SLACK_AUTH_TOKEN"
+WORKSPACE = "YOUR_WORKSPACE"
+
 DATA = [
     {"status_text": "Cluck!", "status_emoji": ":chicken:"},
     {"status_text": "... ... ...", "status_emoji": ":cricket:"},
